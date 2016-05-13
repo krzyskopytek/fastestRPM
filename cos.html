@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><meta content="width=device-width, initial-scale=1.0" name="viewport" /><title>Compass</title><meta content="LaserShark" name="description" /><link rel="stylesheet" media="all" href="/assets/application-ca6f7932691c1177072e675267876c5d.css" /><link href="//vjs.zencdn.net/4.11/video-js.css" rel="stylesheet" /><script src="//vjs.zencdn.net/4.11/video.js"></script><script src="/assets/application-7a6e8731a148e9db80d326c0d358c6e2.js"></script><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="h/Y5yGi0nAcJU6/sAfxfTTBOzIqiExtqElBj3jj00fMh6dhKwRKZuA58bZvm1JQQ4jbAb2sce7o5ATdaM0buuQ==" /><link rel="shortcut icon" type="image/x-icon" href="/assets/compass_favicon-582e8a3f99d8abe31866d62e8bb62bb4.ico" /></head><body><header><nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav navbar-left"><li><a title="Compass Home" href="/welcome"><i class="fa fa-fw fa-compass"></i><span class="visible-xs-inline">Home</span></a></li><li><a title="Setup" href="/setup"><i class="fa fa-fw fa-paper-plane-o"></i><span class="non-tablet-label">Setup</span></a></li><li><a title="Search Activities" id="search-activities-button" href="#"><i class="fa fa-fw fa-search"></i><span class="non-tablet-label">Search</span></a></li><li><a title="Schedule" href="/days/today"><i class="fa fa-fw fa-calendar"></i><span class="non-tablet-label">Schedule</span></a></li><li class="dropdown"><a title="Classmates" href="/students"><i class="fa fa-fw fa-group"></i><span class="non-tablet-label">Classmates</span></a></li><li><a title="Teachers" href="/teachers"><i class="fa fa-fw fa-group"></i><span class="non-tablet-label">Teachers</span></a></li></ul><ul class="nav navbar-nav navbar-right"><li><a title="Feedback" href="/feedbacks"><i class="fa fa-fw fa-comment"></i><span class="non-tablet-label" id="feedback-link">Feedback (0)</span></a></li><li class="dropdown current-user"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Krzys<b class="caret"></b></a><span class="dropdown-arrow"></span><ul class="dropdown-menu"><li><a href="/profile/edit">Edit profile</a></li><li><a class="sign-out-link" rel="nofollow" data-method="delete" href="/session">Sign Out</a></li></ul></li><li id="assistance-request-module"><span class="hidden" id="cancel-assistance-request"><a class="navbar-btn btn btn-warning cancel-request-assistance-button" data-toggle="tooltip" data-placement="bottom" title="Cancel this Assistance Request" data-remote="true" rel="nofollow" data-method="delete" href="/assistance_requests/cancel">Waiting for Assistance</a></span><span id="create-assistance-request"><button class="btn navbar-btn btn-primary" data-target="#assistance-request-reason-modal" data-toggle="modal">Request Assistance</button></span></li></ul></div></div></nav><div class="modal fade" id="assistance-request-reason-modal"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><h4 class="modal-title">Reason for Assistance</h4></div><form id="assistance-request-form" action="/assistance_requests" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class="modal-body"><div class="form-group"><textarea name="reason" id="reason" placeholder="What do you need assistance with?" class="form-control">
+</textarea></div></div><div class="modal-footer"><button class="btn btn-default" data-dismiss="modal" type="button">Cancel</button><input type="submit" name="commit" value="Request Assistance" class="btn btn-primary request-assistance-button" data-dismiss="modal" /></div></form></div></div></div></header><main class="container" role="main"><form id="search-form" action="/search_activities" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><div class="input-group input-group-sm search-input-field"><input type="text" name="query" id="query" placeholder="Enter activity name" class="form-control" /></div> <input type="submit" name="commit" value="Search" class="btn btn-success btn-sm search-submit-button" /></form><div class="teacher-holder"><h4>Teachers on duty</h4><a href="/teachers/67"><img id="teacher_67" title="James Cash" data-toggle="tooltip" data-placement="bottom" src="https://avatars.githubusercontent.com/u/38405?v=3" alt="38405?v=3" /></a><a href="/teachers/88"><img id="teacher_88" title="Adam  Dahan" data-toggle="tooltip" data-placement="bottom" src="https://avatars.githubusercontent.com/u/1205894?v=3" alt="1205894?v=3" /></a><a href="/teachers/103"><img id="teacher_103" title="Steve Thompson" data-toggle="tooltip" data-placement="bottom" src="https://s3.amazonaws.com/lighthouse-ios-compass/uploads/teacher/custom_avatar/103/thumb_21172272939_c0a647ae3d_o.png" alt="Thumb 21172272939 c0a647ae3d o" /></a><a href="/teachers/139"><img id="teacher_139" title="Liam Williams" data-toggle="tooltip" data-placement="bottom" src="https://avatars.githubusercontent.com/u/2415048?v=3" alt="2415048?v=3" /></a></div><div class="reconnect-holder well"><p>You have been disconnected</p><a class="btn btn-success reconnect">Reload</a><a class="btn btn-default dismiss">Dismiss</a></div><aside class="side-nav col-md-3"><h1 class="day-heading">W2D4</h1><h3 class="date-heading">Thu May 12</h3><div class="nav-calendar"><div class="nav-week"><ul><li class="previous week-number"><a href="#">W1</a></li><li class="day-number unlocked"><a href="/days/w1d1">1</a></li><li class="day-number unlocked"><a href="/days/w1d2">2</a></li><li class="day-number unlocked"><a href="/days/w1d3">3</a></li><li class="day-number unlocked"><a href="/days/w1d4">4</a></li><li class="day-number unlocked"><a href="/days/w1d5">5</a></li><li class="day-number unlocked"><a href="/days/w1e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W2</a></li><li class="day-number unlocked"><a href="/days/w2d1">1</a></li><li class="day-number unlocked"><a href="/days/w2d2">2</a></li><li class="day-number unlocked"><a href="/days/w2d3">3</a></li><li class="day-number active today unlocked"><a href="/days/w2d4">4</a></li><li class="day-number disabled"><a href="/days/w2d5">5</a></li><li class="day-number disabled"><a href="/days/w2e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W3</a></li><li class="day-number disabled"><a href="/days/w3d1">1</a></li><li class="day-number disabled"><a href="/days/w3d2">2</a></li><li class="day-number disabled"><a href="/days/w3d3">3</a></li><li class="day-number disabled"><a href="/days/w3d4">4</a></li><li class="day-number disabled"><a href="/days/w3d5">5</a></li><li class="day-number disabled"><a href="/days/w3e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W4</a></li><li class="day-number disabled"><a href="/days/w4d1">1</a></li><li class="day-number disabled"><a href="/days/w4d2">2</a></li><li class="day-number disabled"><a href="/days/w4d3">3</a></li><li class="day-number disabled"><a href="/days/w4d4">4</a></li><li class="day-number disabled"><a href="/days/w4d5">5</a></li><li class="day-number disabled"><a href="/days/w4e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W5</a></li><li class="day-number disabled"><a href="/days/w5d1">1</a></li><li class="day-number disabled"><a href="/days/w5d2">2</a></li><li class="day-number disabled"><a href="/days/w5d3">3</a></li><li class="day-number disabled"><a href="/days/w5d4">4</a></li><li class="day-number disabled"><a href="/days/w5d5">5</a></li><li class="day-number disabled"><a href="/days/w5e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W6</a></li><li class="day-number disabled"><a href="/days/w6d1">1</a></li><li class="day-number disabled"><a href="/days/w6d2">2</a></li><li class="day-number disabled"><a href="/days/w6d3">3</a></li><li class="day-number disabled"><a href="/days/w6d4">4</a></li><li class="day-number disabled"><a href="/days/w6d5">5</a></li><li class="day-number disabled"><a href="/days/w6e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W7</a></li><li class="day-number disabled"><a href="/days/w7d1">1</a></li><li class="day-number disabled"><a href="/days/w7d2">2</a></li><li class="day-number disabled"><a href="/days/w7d3">3</a></li><li class="day-number disabled"><a href="/days/w7d4">4</a></li><li class="day-number disabled"><a href="/days/w7d5">5</a></li><li class="day-number disabled"><a href="/days/w7e">e</a></li></ul></div><div class="nav-week"><ul><li class="previous week-number"><a href="#">W8</a></li><li class="day-number disabled"><a href="/days/w8d1">1</a></li><li class="day-number disabled"><a href="/days/w8d2">2</a></li><li class="day-number disabled"><a href="/days/w8d3">3</a></li><li class="day-number disabled"><a href="/days/w8d4">4</a></li><li class="day-number disabled"><a href="/days/w8d5">5</a></li><li class="day-number disabled"><a href="/days/w8e">e</a></li></ul></div><div class="day-nav-links"><a class="btn btn-yesterday" href="/days/yesterday">Yesterday</a>&nbsp;<a class="btn btn-today" href="/days/today">Today</a>&nbsp;<a class="btn btn-incomplete-activites" href="/incomplete_activities">Incomplete Activities</a></div></div></aside><div class="content col-md-9"><section class="activity-details"><h1>Fastest RPM</h1><div class="well"><div class="actions"><div class="form-group"><div class="form-inline"><div class="left-actions"><a class="btn btn-previous" href="/days/w2d4/activities/94">&laquo; Previous</a><a class="btn btn-next" href="/days/w2d4/activities/95">Next &raquo;</a></div><div class="input-group duration"><div class="input-group-addon"><i class="fa fa-clock-o"></i>&nbsp;Time</div><div class="form-control">Long</div></div></div></div></div><div class="clearfix"><form class="form-inline activity-submission-form" id="new_activity_submission" action="/activities/93/activity_submission" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="x6hhAlHbUaYeqeJRoKDEsCg6GIF2Zid928uJIRaBn2dht4CA+H1UGRmGICZHiA/t+kIUZL9pR63wmt2lHTOgLQ==" /><input class="form-control activity_submission_url" id="activity_submission_github_url" name="github_url" placeholder="Enter your Github repo or gist url" type="text" />&nbsp;<button class="btn btn-activity-complete-status-no-code-review" name="button" type="submit"><i class="fa fa-check"></i>&nbsp;Submit</button></form><form class="form-inline activity-submission-form" id="new_activity_submission" action="/activities/93/activity_submission" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9IIOdOvg4sWOaxU0t8+QwcnMgt+jGTru4/pqMaRsjp5Sne/2QkbneolE10NQ51ucG7SOOmoWWj7Iqz61r96x1A==" /></form></div></div><div class="instructions"><h2>Learning Objectives</h2>
+
+<ul>
+<li>Understand and play with gesture recognizers</li>
+</ul>
+
+<h2>Introduction</h2>
+
+<p><strong>Goal:</strong> Build a single page application that visually displays the crazy speed at which your finger spins!</p>
+
+<h2>Setup</h2>
+
+<ul>
+<li>Create a new iOS project named: FastestRPM</li>
+<li>Use the Single View template</li>
+<li>Remember to push it to a new public repo on github</li>
+</ul>
+
+<h2>Some Extra Code to help you throughout the assignment&#39;s user stories</h2>
+
+<h5>You might want to define some macros like these</h5>
+<pre><code class=''>   #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
+   #define MIN_DEGREES      -135.0
+   #define MAX_DEGREES      135.0
+   #define RANGE_DEGREES    (MAX_DEGREES - MIN_DEGREES)
+
+   #define LIMIT_VELOCITY           7500.0 // Points per second
+   #define LIMIT_VELOCITY_DELTA 10.0 // Points per second
+
+   #define RESET_DELAY      0.1 // Seconds
+   #define VELOCITY_DELAY   0.1 // Seconds
+</code></pre>
+<h5>Get velocity from dimension components</h5>
+<pre><code class=''>        CGPoint componentVelocity = [sender velocityInView:self.view];
+        CGFloat velocity = sqrt(pow(componentVelocity.x, 2) + pow(componentVelocity.y, 2));
+</code></pre>
+<h5>Helper method for actually getting the needle to move. It&#39;s your job to use this method in the right place.</h5>
+<pre><code class=''>        - (void)moveNeedleWithVelocity:(CGFloat)velocity {
+
+            self.currVelocity = velocity;
+
+            // Calculate velocity of pan motion
+            self.maxVelocity = MAX(self.maxVelocity, velocity);
+
+            // Calculate proportion of current velocity to velocity limit
+            CGFloat velocityProportion = velocity / LIMIT_VELOCITY;
+
+            // Calculate proportion of RPM needle degree range
+            CGFloat degrees = MIN(RANGE_DEGREES * velocityProportion, RANGE_DEGREES);
+
+            // Move needle in degree range proportionate to velocity
+            self.needleView.transform = CGAffineTransformRotate(self.minRotationTransform, RADIANS(degrees));
+        }
+</code></pre>
+<h2>MVP User Stories</h2>
+
+<h3>As a user, I want to see a speedometer wheel</h3>
+
+<ul>
+<li>Create a new project named: FastestRPM</li>
+<li>Use the Single View template</li>
+<li>Create a new repository on GitHub (FastestRPM) and push the project to GitHub</li>
+<li>Add a UIImageView to the view</li>
+<li>Set the UIImageView&#39;s image to a speedometer image 
+<img src="http://i.imgur.com/RymB8v2.png" alt="Speedometer"></li>
+</ul>
+
+<h3>As a user, I want to be able to see the speedometer needle</h3>
+
+<ul>
+<li>Add a UIImageView on top of the speedometer</li>
+<li>Set the UIImageView&#39;s image to a needle image
+<img src="http://i.imgur.com/olnJarq.png" alt="Needle Dial"></li>
+<li>As a user, I should initially see the needle at its base position (0 RPM).</li>
+<li>Add a weak UIImageView property to the ViewController class</li>
+<li>Connect the property to the needle</li>
+<li>During setup (hint: viewDidLoad), change the properties of the needle image so that it angles to the 0 RPM position</li>
+</ul>
+
+<h3>As a user, I want to see the needle rise up when I make circular motions with one of my fingers.</h3>
+
+<ul>
+<li>Add a UIPanGestureRecognizer on top of the base view (highest parent view)</li>
+<li>Make sure it accepts only one finger</li>
+<li>Connect the outlet action to an appropriately named method</li>
+<li>Calculate changes in the location of the touch points</li>
+<li>For simplicity&#39;s sake, let&#39;s just calculate velocity from one point to the next (distance/time). HINT: <a href="http://en.wikipedia.org/wiki/Pythagorean_theorem" target="_blank">http://en.wikipedia.org/wiki/Pythagorean_theorem</a></li>
+<li>To change the image&#39;s angle, use transforms</li>
+</ul>
+
+<h3>As a user, I want to see the needle fall back naturally to its base position when I lift my fingers off</h3>
+
+<ul>
+<li>After the gesture state changes to ended, failed or cancelled, move the needle back to base position</li>
+<li>Also, when the gesture hasn&#39;t been changed in 0.1 seconds, it should reset the needle&#39;s position (HINT: timers)</li>
+</ul>
+
+<h2>Stretch Goals</h2>
+
+<ul>
+<li>Make the dial display the highest velocity acheived in a single gesture.</li>
+</ul>
+</div></section><div class="modal fade" id="feedback_modal"><div class="modal-dialog"><div class="modal-content"></div></div></div></div></main></body></html>
